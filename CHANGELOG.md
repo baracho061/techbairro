@@ -2,6 +2,10 @@
 
 # Changelog
 
+## Em desenvolvimento
+### Adicionado
+- Código publicado no GitHub, com histórico de versões.
+
 ## v3.3.0 (Aula 20)
 
 ### Adicionado
