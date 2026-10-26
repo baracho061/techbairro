@@ -2,7 +2,7 @@
 
 Versão testada: 3.3.2 · Data: 26/10/2026 · Responsável: Gabriel da Silva
 
-Sistema operacional e versão do Python: Windows · Preencher com a versão exibida por `python --version`.
+Sistema operacional e versão do Python: Windows · Python 3.12.0.
 
 | ID | Requisito | Passos e dados | Esperado | Obtido | Status |
 |---|---|---|---|---|---|
