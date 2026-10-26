@@ -2,7 +2,7 @@
 
 A TechBairro é um sistema de cadastro de clientes desenvolvido em Python para a associação de moradores. Ele permite cadastrar, consultar, alterar e excluir informações dos clientes.
 
-**Versão atual:** 3.3.1 · Histórico de mudanças no [CHANGELOG](CHANGELOG.md)
+**Versão atual:** 3.3.2 · Histórico de mudanças no [CHANGELOG](CHANGELOG.md)
 
 ## Funcionalidades
 
@@ -14,9 +14,9 @@ A TechBairro é um sistema de cadastro de clientes desenvolvido em Python para a
 | Item | Requisito |
 |---|---|
 | Sistema operacional | Windows, Linux ou macOS |
-| Python | Python 3 instalado (versão testada: confirmar no computador) |
+| Python | Python 3 instalado |
 | Tkinter | Necessário para a interface gráfica |
-| Bibliotecas externas | Nenhuma |
+| Bibliotecas externas | Nenhuma, conforme a configuração atual do projeto |
 | Internet | Necessária para baixar o projeto; não é necessária para utilizar o programa depois de instalado |
 
 ## Instalação
@@ -99,9 +99,11 @@ O passo a passo está no [Manual de uso](docs/manual_de_uso.md).
 - `CHANGELOG.md`: registra as mudanças realizadas nas versões.
 - `requirements.txt`: informa as dependências do projeto.
 - `docs/manual_de_uso.md`: contém o manual para quem utiliza o sistema.
+- `docs/registro_de_testes.md`: registra os testes realizados no sistema.
 
 ## Autor
 
 Gabriel da Silva Baracho
+
 Curso Técnico em Desenvolvimento de Sistemas  
 Senac DF
