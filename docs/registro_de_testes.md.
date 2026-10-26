@@ -1,0 +1,24 @@
+# Registro de testes da TechBairro
+
+Versão testada: 3.3.2 · Data: 26/10/2026 · Responsável: Gabriel da Silva
+
+Sistema operacional e versão do Python: Windows · Preencher com a versão exibida por `python --version`.
+
+| ID | Requisito | Passos e dados | Esperado | Obtido | Status |
+|---|---|---|---|---|---|
+| CT01 | RF01 | Cadastrar um cliente com todos os campos corretos. | O cliente deve ser cadastrado e aparecer na lista. | O cliente foi cadastrado com sucesso e apareceu na lista. | Aprovado |
+| CT02 | RF01 | Tentar salvar com Nome e Endereço vazios. | O sistema deve impedir o cadastro e informar que existem campos obrigatórios vazios. | O sistema impediu o cadastro devido aos campos obrigatórios vazios. | Aprovado |
+| CT03 | RF02 | Informar o telefone `61 9999 0000`, com espaços. | O sistema deve aplicar a regra de validação de telefone definida no projeto. | O sistema aplicou a validação de telefone definida no projeto. | Aprovado |
+| CT04 | RF03 | Informar o e-mail `ana@email`, sem ponto. | O sistema deve rejeitar o e-mail inválido. | O sistema rejeitou o e-mail inválido. | Aprovado |
+| CT05 | RF05 | Editar um cliente, trocar o telefone e salvar. | O telefone deve ser atualizado sem criar um segundo cadastro. | O telefone foi atualizado sem criar um segundo cadastro. | Aprovado |
+| CT06 | RF06 | Tentar excluir um cliente, responder Não e depois Sim. | Ao responder Não, o cliente deve continuar cadastrado. Ao responder Sim, deve ser excluído. | Ao responder Não, o cliente permaneceu cadastrado. Ao responder Sim, foi excluído. | Aprovado |
+
+## Testes automáticos
+
+Saída do comando `python testar_validacao.py`:
+
+Os testes automáticos foram executados e concluídos com sucesso.
+
+## Defeitos encontrados
+
+Nenhum.
